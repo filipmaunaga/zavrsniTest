@@ -58,26 +58,7 @@ namespace ZavrsniTest
             Assert.AreEqual("Welcome back, Filip", w);
 
 
-            //IWebElement small = this.FindElement(By.XPath("(//select[@name='quantity'])[2]"));
-            //var selection = new SelectElement(small);
-            //selection.SelectByValue("6");
-            //DoWait(1);
-            //this.FindElement(By.XPath("(//input[@type='submit' and @value='ORDER NOW'])[2]"))?.Click();
-            //IWebElement total1 = this.FindElement(By.XPath("//div[@class='panel-footer'])[2]"));
-            //DoWait(2);
-
-
-            //IWebElement total2 = this.FindElement(By.XPath("//tbody//tr[1]/td[4]"));
-            //DoWait(2);
-            //string t1 = total1.Text.Substring(1);
-
-            //string t2 = total2.Text.Substring(1);
-
-            //int m1 = Convert.ToInt32(t1);
-
-            //int m2 = Convert.ToInt32(t2);
-
-            //Assert.AreEqual(6 * m1, m2);
+            
         }
         [Test]
         public void Test3()
